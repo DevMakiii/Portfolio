@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
             <Link href="#" className="text-xl font-bold text-primary hover:text-accent transition-colors mb-4 block">
-              {"<Dev />"}
+              {"Marc Angelo Palomares"}
             </Link>
             <p className="text-sm text-muted-foreground">Building modern web experiences with passion and precision.</p>
           </div>

@@ -4,60 +4,50 @@ import { ExternalLink, Github } from "lucide-react"
 const projects = [
   {
     id: 1,
-    title: "E-Commerce Platform",
+    title: "SmartScribe",
     description:
-      "A full-stack e-commerce solution built with Next.js and Stripe integration for seamless payment processing.",
-    tags: ["Next.js", "TypeScript", "Stripe", "Tailwind CSS"],
-    image: "/ecommerce-dashboard.jpg",
+      "A modern, responsive note-taking app with AI-powered summarization and OCR capabilities for enhanced learning and productivity.",
+    tags: ["Vue.js", "Pinia", "PHP", "Node.js", "Tailwind CSS", "TypeScript", "Express.js", "SupaBase", "Google Gemini API", "Tesseract.js"],
+    image: "/smartscribe.png",
     liveUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/DevMakiii/SmartScribe",
   },
   {
     id: 2,
-    title: "Task Management App",
-    description: "Real-time collaborative task management application with user authentication and data persistence.",
-    tags: ["Nuxt", "Vue 3", "Firebase", "Tailwind CSS"],
-    image: "/task-management-app.jpg",
-    liveUrl: "#",
-    githubUrl: "#",
+    title: "Drip Fit Co.",
+    description: "The system supports inventory operations like stock in/out transactions, item CRUD operations, category management, and provides visual analytics for inventory health and trends.",
+    tags: ["Nuxt.js", "Vue.js", "Prisma", "Tailwind CSS", "PostgreSQL", "TypeScript", "Node.js"],
+    image: "/dripfitco.png",
+    liveUrl: "https://dripfitco.vercel.app/",
+    githubUrl: "https://github.com/DevMakiii/Drip-Fit-Co.",
   },
   {
     id: 3,
-    title: "Content Management System",
-    description: "Custom CMS built with PHP and MySQL, featuring user roles, content scheduling, and analytics.",
-    tags: ["PHP", "MySQL", "JavaScript", "Bootstrap"],
-    image: "/cms-interface.jpg",
-    liveUrl: "#",
-    githubUrl: "#",
+    title: "Serenote",
+    description: "Serenote is a Next.js mood tracking app where users log daily moods with emojis and notes, view history and calendar visualizations, track streaks, get AI-powered insights and affirmations, and export data. Features include authentication, profiles, achievements, reminders, and analytics, built with Supabase, Tailwind CSS, and Radix UI.",
+    tags: ["Next.js", "React", "TypeScript", "Tailwind CSS", "SupaBase", "PostgreSQL", "AI SDK Google"],
+    image: "/serenote.png",
+    liveUrl: "serenote.vercel.app",
+    githubUrl: "https://github.com/DevMakiii/MoodJournalTracker",
   },
   {
     id: 4,
-    title: "Portfolio Website",
-    description: "Modern, responsive portfolio showcasing projects and technical expertise with smooth animations.",
-    tags: ["Next.js", "React", "Tailwind CSS", "Framer Motion"],
-    image: "/portfolio-website-design.jpg",
+    title: "Portfolio",
+    description: "A personal portfolio website for Marc Angelo N. Palomares, a Computer Science student at Gordon College. Built with Next.js and Tailwind CSS, it showcases his web development projects and skills in technologies like React, Vue.js, and TypeScript.",
+    tags: ["Next.js", "React", "Tailwind CSS", "TypeScript"],
+    image: "/portfolio.png",
     liveUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/DevMakiii/Portfolio",
   },
   {
     id: 5,
-    title: "Weather Dashboard",
+    title: "LinkGuard",
     description:
-      "Interactive weather application with real-time data, location services, and beautiful visualizations.",
-    tags: ["React", "API Integration", "Chart.js", "Tailwind CSS"],
-    image: "/weather-dashboard-application.jpg",
+      "LinkGuard is a Nuxt.js web app for checking URL safety using Google's Safe Browsing API, featuring a responsive UI with threat analysis and check history.",
+    tags: ["Nuxt.js", "Vue.js", "Tailwind CSS", "Node.js", "Google APIs", "TypeScript"],
+    image: "/linkguard.png",
     liveUrl: "#",
-    githubUrl: "#",
-  },
-  {
-    id: 6,
-    title: "Social Media Analytics",
-    description:
-      "Analytics dashboard for tracking social media metrics with data visualization and reporting features.",
-    tags: ["Next.js", "D3.js", "PostgreSQL", "TypeScript"],
-    image: "/analytics-dashboard-charts.jpg",
-    liveUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/DevMakiii/LinkGuard",
   },
 ]
 
@@ -67,10 +57,9 @@ export default function Projects() {
       <div className="max-w-6xl mx-auto">
         <div className="mb-16">
           <p className="text-sm font-mono text-accent mb-2">Featured Work</p>
-          <h2 className="text-4xl font-bold mb-4">Projects & Case Studies</h2>
+          <h2 className="text-4xl font-bold mb-4">Projects</h2>
           <p className="text-lg text-muted-foreground max-w-2xl">
-            A selection of projects that showcase my skills in full-stack development, UI/UX design, and
-            problem-solving.
+            A selection of projects that showcase my skills in full-stack development and UI/UX design.
           </p>
         </div>
 
