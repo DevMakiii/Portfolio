@@ -36,7 +36,7 @@ const projects = [
     description: "A personal portfolio website for Marc Angelo N. Palomares, a Computer Science student at Gordon College. Built with Next.js and Tailwind CSS, it showcases his web development projects and skills in technologies like React, Vue.js, and TypeScript.",
     tags: ["Next.js", "React", "Tailwind CSS", "TypeScript"],
     image: "/portfolio.png",
-    liveUrl: "#",
+    liveUrl: "https://portfolio-palomares.vercel.app/",
     githubUrl: "https://github.com/DevMakiii/Portfolio",
   },
   {
@@ -92,6 +92,7 @@ export default function Projects() {
                 <div className="flex gap-3 pt-4 border-t border-border">
                   <Link
                     href={project.liveUrl}
+                    target="_blank"
                     className="flex-1 inline-flex items-center justify-center gap-2 px-4 py-2 bg-primary text-primary-foreground rounded hover:bg-accent hover:text-accent-foreground transition-all text-sm font-medium"
                   >
                     Live Site
@@ -99,6 +100,7 @@ export default function Projects() {
                   </Link>
                   <Link
                     href={project.githubUrl}
+                    target="_blank"
                     className="flex-1 inline-flex items-center justify-center gap-2 px-4 py-2 border border-border rounded hover:bg-muted transition-colors text-sm font-medium"
                   >
                     Code
