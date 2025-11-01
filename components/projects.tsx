@@ -27,7 +27,7 @@ const projects = [
     description: "Serenote is a Next.js mood tracking app where users log daily moods with emojis and notes, view history and calendar visualizations, track streaks, get AI-powered insights and affirmations, and export data. Features include authentication, profiles, achievements, reminders, and analytics, built with Supabase, Tailwind CSS, and Radix UI.",
     tags: ["Next.js", "React", "TypeScript", "Tailwind CSS", "SupaBase", "PostgreSQL", "AI SDK Google"],
     image: "/serenote.png",
-    liveUrl: "serenote.vercel.app",
+    liveUrl: "sere-note.vercel.app",
     githubUrl: "https://github.com/DevMakiii/MoodJournalTracker",
   },
   {
